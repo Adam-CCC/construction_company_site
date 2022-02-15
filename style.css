@@ -1,0 +1,367 @@
+body{
+  background-image: url("image/Фон сайта.jpg");
+  background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.Shapka{
+  display:inline-block;
+	padding:25px;
+	margin-bottom:-10px;
+	color:#E7E7E7;
+	font-size:30px;
+	font-family: arial;
+	font-weight: bold;
+	position:relative;
+	top:-8px;
+}	
+  
+  
+.Shapka:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  background-color:#FFFFFF;
+  -webkit-transition: all .1s ease;
+  transition: all 0.3s ease;  
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.Shapka:hover:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  
+}
+
+.o_nas{
+	border-style: solid;
+	border-color: #80A6B1; 
+	background-color: #80A6B1;
+	opacity: 0.85;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 30px; 
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.comfort_zabota{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px; 
+  color: #F0F0F0;
+  letter-spacing: 3px;
+  margin-top: 100px;
+}
+
+.buildingON_zagolovok{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 80px; 
+  margin-top: 10px;
+  font-stretch: expanded; /*не работает, надо доработать*/
+  letter-spacing: 2px;
+  color: #F0F0F0;
+}
+
+.dom_mechty{
+  color: #F0F0F0;
+  font-size: 40px; 
+  font-family: arial;
+  margin-top: -30px;
+  padding-bottom: 100px;
+}
+
+
+.content{
+	border-style: solid;
+  border-color: #F0F0F0; 
+  background-color: #F0F0F0;
+  margin-left: -8px;
+  margin-right: -8px;
+  opacity: 1;
+}
+
+.o_nas-2{
+  color: black;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  font-size: 60px; 
+  font-family: arial;
+  font-weight: bold;
+}
+
+.kampania{
+  font-size: 30px; 
+  color: black;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.kampania_span{
+  font-weight: 100;
+  font-family: Century Gothic;
+}
+
+.photo_1_1{
+  width: 500px;
+  height: 300px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.photo_1_2{
+  width: 500px;
+  height: 300px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.photo_1_3{
+  width: 500px;
+  height: 300px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.block_tseny{
+  border-style: solid;
+  border-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.zagol_tseny{
+  font-size: 45px;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.pod_tsenoy{
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+#pod_tsenoy{
+  font-weight: 100;
+  font-family: Century Gothic;
+}
+
+.tsena-1{
+  margin-bottom: 30px;
+}
+
+.tsena-1-1{
+  margin-left: 400px;
+  margin-top: 1px;
+}
+
+#tsena-1-1{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+}
+
+.tsena-1-2{
+  margin-left: 1350px;
+  margin-top: 1px;
+}
+
+#tsena-1-2{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+  margin-left: 37.5%;
+}
+
+.linia_1{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.tsena-2{
+  margin-bottom: 30px;
+}
+
+.tsena-2-1{
+  margin-left: 400px;
+  margin-top: 1px;
+}
+
+#tsena-2-1{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+}
+
+.tsena-2-2{
+  margin-left: 1350px;
+  margin-top: 1px;
+}
+
+#tsena-2-2{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+  margin-left: 27%;
+}
+
+.linia_2{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.tsena-3{
+  margin-bottom: 30px;
+}
+
+.tsena-3-1{
+  margin-left: 400px;
+  margin-top: 1px;
+}
+
+#tsena-3-1{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+}
+
+.tsena-3-2{
+  margin-left: 1350px;
+  margin-top: 1px;
+}
+
+#tsena-3-2{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+  margin-left: 39%;
+}
+
+.linia_3{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.tsena-4{
+  margin-bottom: 30px;
+}
+
+.tsena-4-1{
+  margin-left: 400px;
+  margin-top: 1px;
+}
+
+#tsena-4-1{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+}
+
+.tsena-4-2{
+  margin-left: 1350px;
+  margin-top: 1px;
+}
+
+#tsena-4-2{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+  margin-left: 37.5%;
+}
+
+.linia_4{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.tsena-5{
+  margin-bottom: 90px;
+
+}
+
+.tsena-5-1{
+  margin-left: 400px;
+  margin-top: 1px;
+}
+
+#tsena-5-1{
+  font-size: 30px;
+  font-family: Century Gothic;
+}
+ю
+.tsena-5-2{
+  margin-left: 1350px;
+  margin-top: 1px;
+}
+
+#tsena-5-2{
+  font-size: 30px;
+  font-family: Century Gothic;
+  font-weight: 400;
+  margin-left: 37.5%;
+}
+
+.linia_5{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.kontakty{
+  border-style: solid;
+  border-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#kontakt{
+  font-size: 45px;
+  font-family: arial;
+}
+
+.adresa{
+  border-style: solid;
+  border-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  width: 550px;
+  height: 200px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+#nom-poch{
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Century Gothic;
+}
+
+#adres{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Century Gothic;
+}
+
+.adres{
+  margin-top: 25px;
+}
